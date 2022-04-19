@@ -1,0 +1,277 @@
+@media (max-width: 1520px) {
+    .pear{
+        left: 60%;
+    }
+    .pear_back{
+        left: 58%;
+    }
+    .bamboo{
+        top: -200px;
+    }
+    .lemon_fish_img, .orange_lion_img, .koala_pear_img, .melon_elph_img, .kiwi_turtle_img, .pumpkin_leg_img, .bakpanda_img, .bakla_whale_img, .banana_img{
+        width: 60%;
+    }
+    .sections_content2{
+        background-position: -180px -700px;
+    }
+}
+@media (max-width: 1240px) {
+    .pear{
+        left: 50%;
+        z-index: 1;
+    }
+    .pear_back{
+        left: 48%;
+    }
+    .header_content{
+        padding-left: 0px;
+    }
+    .header_cloud1{
+        display: none;
+    }
+    .lemon_fish_img, .orange_lion_img, .koala_pear_img, .melon_elph_img, .kiwi_turtle_img, .pumpkin_leg_img, .bakpanda_img, .bakla_whale_img, .banana_img{
+        width: 55%;
+    }
+    .btn{
+        padding: 12px 40px;
+        font-size: 22px;
+    }
+    .oranges, .bamboo{
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        padding: 0 30px;
+        max-width: 100%;
+    }
+    .header_content{
+        align-items: start;
+    }
+    .logo_text{
+        width: 80%;
+    }
+    .header_text{
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+    .header_btn{
+        padding: 12px 35px;
+        margin-left: 30px;
+    }
+    .pear{
+        top: 60px;
+        left: 50%;
+        width: 40%;
+    }
+    .pear_back{
+        top: 245px;
+        left: 48%;
+        width: 40%;
+    }
+    .header_phone{
+        display: none;
+    }
+    .sections_content, .sections_content2{
+        background-position: -180px 100px;
+    }
+    .sections_content2{
+        background-position: -180px -100px;
+    }
+    .sections_content3{
+        background-position: -600px 0px;
+    }
+    .lemon_fish_content, .koala_pear_content, .kiwi_turtle_content, .bakpanda_content, .banana_content{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .logo_text{
+        width: 75%;
+    }
+    .header_text{
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    .header_btn, .pears{
+        display: none;
+    }
+    .pear{
+        top: 80px;
+        left: 60%;
+    }
+    .pear_back{
+        top: 200px;
+        left: 58%;
+    }
+    header{
+        min-height: 550px;
+    }
+    .orange_lion{
+        margin-top: 30px;
+    }
+    .lemon_fish .container, .koala_pear .container, .kiwi_turtle .container, .bakpanda .container, .banana .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .orange_lion .container, .melon_elph .container, .pumpkin_leg  .container, .bakla_whale .container{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .lemon_fish_img{
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .lemon_fish_img, .orange_lion_img, .koala_pear_img, .melon_elph_img, .kiwi_turtle_img, .pumpkin_leg_img, .bakpanda_img, .bakla_whale_img, .banana_img{
+        width: 85%;
+    }
+    .footer .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 550px) {
+    .container{
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    header{
+        background: url(../img/header_banner_res.png) no-repeat center / cover;
+        background-size: 100% 500px;
+        background-position: top;
+    }
+    .logo_text{
+        width: 90%;
+        min-width: 290px;
+    }
+    .header_text{
+        font-size: 24px;
+        padding: 0;
+        text-align: left;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .header_content{
+        align-items: start;
+        padding-top: 30px;
+    }
+    .pear{
+        top: 150px;
+        left: 30%;
+        width: 240px;
+        height: 300px;
+    }
+    .header_cloud2{
+        top: 150px;
+        transform: none;
+        width: 280px;
+        height: auto;
+        top: 320px;
+        left: 20%;
+    }
+    .pear_back{
+        display: none;
+    }
+    body{
+        background-position: -800px -250px;
+    }
+    .main_text{
+        font-size: 32px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px) {
+    .pear{
+        left: 18%;
+        top: 130px;
+    }
+    .header_cloud2{
+        left: 5%;
+        top: 300px;
+    }
+    .logo_text{
+        min-width: 280px;
+    }
+    .content_title{
+        font-size: 32px;
+    }
+    .content_text{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .lemon_fish_img, .orange_lion_img, .bakla_whale_img{
+        width: 450px;
+        margin-left: 200px;
+    }
+    .melon_elph_img, .pumpkin_leg_img{
+        width: 450px;
+        margin-left: 100px;
+    }
+    .koala_pear_img, .kiwi_turtle_img, .bakpanda_img, .banana_img{
+        width: 500px;
+        margin-right: 100px;
+    }
+    .watermelon, .leafs{
+        top: 350px;
+        width: 200px;
+        left: 50%;
+    }
+    .leafs{
+        width: 150px;
+        top: 450px;
+        left: 55%;
+    }
+    .content_img2{
+        width: 90%;
+    }
+    .content{
+        margin: 0;
+        padding-left: 15px;
+    }
+    .melon_elph_content, .kiwi_turtle_content, .bakpanda{
+        margin-top: 50px;
+    }
+    .melon_elph, .kiwi_turtle {
+        margin-top: 50px;
+    }
+    .bakla_whale {
+        padding: 50px 0;
+    }
+    .pumpkin_leg {
+        padding-top: 30px;
+    }
+    body{
+        background-position: -800px -250px;
+    }
+    .sections_content{
+        background-position: -680px -1200px;
+    }
+    .sections_content2{
+        background-position: -180px -100px;
+    }
+    .sections_content3{
+        background-position: -600px 0px;
+    }
+    .main_text{
+        font-size: 20px;
+        margin: 25px 0 35px;
+    }
+    .footer .container{
+        flex-wrap: wrap-reverse;
+    }
+    .footer_feedback{
+        display: none;
+    }
+    .socials{
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    .footer_text{
+        text-align: center;
+    }
+}
