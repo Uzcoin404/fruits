@@ -114,10 +114,12 @@
     .lemon_fish .container, .koala_pear .container, .kiwi_turtle .container, .bakpanda .container, .banana .container{
         flex-wrap: wrap;
         justify-content: center;
+        overflow-x: hidden;
     }
     .orange_lion .container, .melon_elph .container, .pumpkin_leg  .container, .bakla_whale .container{
         flex-wrap: wrap-reverse;
         justify-content: center;
+        overflow-x: hidden;
     }
     .lemon_fish_img{
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -216,15 +218,15 @@
         width: 500px;
         margin-right: 100px;
     }
-    .watermelon, .leafs{
-        top: 350px;
+    .watermelon{
+        top: 340px;
         width: 200px;
-        left: 50%;
+        left: 36%;
     }
     .leafs{
         width: 150px;
         top: 450px;
-        left: 55%;
+        left: 48%;
     }
     .content_img2{
         width: 90%;
